@@ -7,15 +7,15 @@
 
 **主页**
 
-<img src="./public/img/index.png" width=600 />
+<img src="public/img/index.png" width=600 />
 
 **搜索页面**
 
-<img src="./public/img/search.png" width=600 />
+<img src="public/img/search.png" width=600 />
 
 **detail页面**
 
-<img src="./public/img/detail.png" width=600 />
+<img src="public/img/detail.png" width=600 />
 
 
 ## 项目说明：
