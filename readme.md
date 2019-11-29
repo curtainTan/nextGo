@@ -124,6 +124,14 @@ import 'antd/dist/antd.css'
 
 1. 页面书写：
 ```js
+function gotoB(){
+    Router.push( {
+        pathname: "/tan/b",
+        query: {
+            id: 2
+        }
+    }, '/tan/b/2' )
+}
 <Link href="/a?id=1" as="/a/1" >     // as就是路由映射
     <a title="A页面">
         <Button>我是主页{ counter }</Button>
