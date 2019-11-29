@@ -74,7 +74,6 @@ function Search({ router, repos }){
     const { lang, sort, order, page } = router.query
 
     useEffect( () => {
-        console.log( "获去到的数据————————", repos.items[1] )
         if( !isServer ){
             cacheArray( repos.items )
         }
@@ -179,9 +178,11 @@ Search.getInitialProps = async ({ ctx }) => {
 
     const { query, sort, lang, order, page } = ctx.query
     if( !query ){
+        
         return {
             repos: {
-                total_count: 0
+                total_count: 0,
+                items: []
             }
         }
     }

@@ -5,6 +5,8 @@ import App from "next/app"
 import { Provider } from "react-redux"
 import Router from "next/router"
 
+import 'antd/dist/antd.css'
+
 import Layout  from "../components/layout"
 import withReduxApp from "../lib/with_redux"
 import PageLoading from "../components/PageLoading"
